@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — BetaCalc</title>
+<style>
+  :root {
+    --bg: #0f1115;
+    --card: #171a21;
+    --text: #e6e8ec;
+    --muted: #9aa3b2;
+    --accent: #4f8cff;
+    --border: #262b35;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.65;
+    font-size: 16px;
+  }
+  .wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 48px 20px 80px;
+  }
+  header {
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 24px;
+    margin-bottom: 32px;
+  }
+  h1 { font-size: 28px; margin: 0 0 8px; }
+  h2 {
+    font-size: 20px;
+    margin: 40px 0 12px;
+    color: #fff;
+  }
+  h3 { font-size: 16px; margin: 22px 0 8px; color: #fff; }
+  p, li { color: var(--text); }
+  .meta { color: var(--muted); font-size: 14px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  ul { padding-left: 22px; }
+  li { margin-bottom: 8px; }
+  .note {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    padding: 14px 18px;
+    border-radius: 8px;
+    margin: 20px 0;
+    color: var(--muted);
+    font-size: 14px;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 16px 0;
+    font-size: 15px;
+  }
+  th, td {
+    border: 1px solid var(--border);
+    padding: 10px 12px;
+    text-align: left;
+    vertical-align: top;
+  }
+  th { background: var(--card); color: #fff; }
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--muted);
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Privacy Policy</h1>
+    <p class="meta">App: <strong>BetaCalc</strong> &nbsp;•&nbsp; Last updated: 9 June 2026</p>
+  </header>
+
+  <p>This Privacy Policy explains how <strong>BetaCalc</strong> ("the App", "we", "us", or "our") collects, uses, stores, and protects your information when you use our mobile application. The App is a study companion designed for Maharashtra State Board 10th and 12th standard students. By using the App, you agree to the practices described in this policy.</p>
+
+  <h2>1. Information We Collect</h2>
+
+  <h3>a) Account Information</h3>
+  <p>When you sign in using Google Sign-In (Firebase Authentication), we collect:</p>
+  <ul>
+    <li>Your name</li>
+    <li>Your email address</li>
+    <li>Your profile photo (if available from your Google account)</li>
+  </ul>
+
+  <h3>b) Study & Usage Data</h3>
+  <p>To provide your personalized study experience, we store the following in our secure cloud database (Google Firebase Firestore):</p>
+  <ul>
+    <li>Your study progress and completed topics</li>
+    <li>Pomodoro study sessions and daily study minutes per subject</li>
+    <li>Your selected study roadmap and preferences</li>
+  </ul>
+
+  <h3>c) Camera Images</h3>
+  <p>When you use the math equation scanning feature, the App accesses your device camera to capture an image of a math problem. This image is sent to a third-party AI service (Google Gemini API) for processing so the equation can be recognized and solved. <strong>These images are not permanently stored by us</strong> and are used only to generate your result.</p>
+
+  <h3>d) Voice Input</h3>
+  <p>When you use the voice input feature, the App accesses your device microphone to capture your spoken input. This is processed to perform the requested calculation or action and is not permanently stored by us.</p>
+
+  <h3>e) Technical & Device Information</h3>
+  <p>We may automatically collect limited technical information (such as device type, app version, and crash/diagnostic data) through Firebase services to keep the App stable and improve performance.</p>
+
+  <h2>2. How We Use Your Information</h2>
+  <ul>
+    <li>To create and manage your account</li>
+    <li>To save and sync your study progress across sessions</li>
+    <li>To provide app features such as equation scanning, voice input, and study tracking</li>
+    <li>To maintain app security and prevent misuse</li>
+    <li>To fix bugs, analyze crashes, and improve the App</li>
+  </ul>
+
+  <h2>3. Third-Party Services</h2>
+  <p>The App uses the following trusted third-party services, each governed by its own privacy policy:</p>
+  <table>
+    <tr><th>Service</th><th>Purpose</th><th>Privacy Policy</th></tr>
+    <tr>
+      <td>Google Firebase (Authentication, Firestore, App services)</td>
+      <td>Sign-in, data storage, diagnostics</td>
+      <td><a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">View</a></td>
+    </tr>
+    <tr>
+      <td>Google Gemini API</td>
+      <td>AI processing of scanned math equations</td>
+      <td><a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">View</a></td>
+    </tr>
+  </table>
+
+  <h2>4. Permissions We Request</h2>
+  <ul>
+    <li><strong>Camera</strong> — used only to scan math equations. Images are processed by AI and not permanently stored.</li>
+    <li><strong>Microphone</strong> — used only for voice input features.</li>
+    <li><strong>Internet</strong> — required to sign in, sync data, and use AI features.</li>
+  </ul>
+  <p>You can manage or revoke these permissions anytime through your device settings.</p>
+
+  <h2>5. Data Sharing</h2>
+  <p>We <strong>do not sell, rent, or trade</strong> your personal information to anyone. Your data is only shared with the third-party services listed above strictly to provide the App's features. We may disclose information if required by law or to protect the rights and safety of our users.</p>
+
+  <h2>6. Data Security</h2>
+  <p>We take reasonable measures to protect your information:</p>
+  <ul>
+    <li>All data is transmitted over encrypted (HTTPS) connections.</li>
+    <li>Your personal data in Firestore is protected by security rules that restrict access to your own account only.</li>
+    <li>Access to administrative data is limited to authorized personnel.</li>
+  </ul>
+  <p>However, no method of electronic storage or transmission is 100% secure, and we cannot guarantee absolute security.</p>
+
+  <h2>7. Data Retention & Account Deletion</h2>
+  <p>We retain your data for as long as your account is active. You have the right to delete your account and associated personal data at any time.</p>
+  <ul>
+    <li><strong>In-app:</strong> Go to Profile &rarr; Delete Account to permanently remove your account and study data.</li>
+    <li><strong>By email:</strong> You may also request deletion by emailing us at <a href="mailto:bhaveshwalode@gmail.com">bhaveshwalode@gmail.com</a>. We will process your request within a reasonable time.</li>
+  </ul>
+  <div class="note">Note for the developer: Google now requires apps with accounts to provide a way to delete the account and data. If your App does not yet have an in-app "Delete Account" option, add it, and also provide a public account-deletion URL in the Play Console. Update the wording above to match what your App actually offers.</div>
+
+  <h2>8. Children's Privacy</h2>
+  <p>The App is intended for students aged 13 and above. We do not knowingly collect personal information from children under 13. If you are under 18, please use the App with the guidance of a parent or guardian. If we learn that we have collected data from a child under 13 without proper consent, we will delete it promptly.</p>
+
+  <h2>9. Your Rights</h2>
+  <p>You have the right to access, correct, or delete your personal information. To exercise these rights, contact us using the details below.</p>
+
+  <h2>10. Changes to This Policy</h2>
+  <p>We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated "Last updated" date. We encourage you to review this policy periodically.</p>
+
+  <h2>11. Contact Us</h2>
+  <p>If you have any questions about this Privacy Policy, please contact us:</p>
+  <ul>
+    <li>Email: <a href="mailto:bhaveshwalode@gmail.com">bhaveshwalode@gmail.com</a></li>
+  </ul>
+
+  <footer>
+    <p>&copy; 2026 BetaCalc. All rights reserved.</p>
+  </footer>
+</div>
+</body>
+</html>
